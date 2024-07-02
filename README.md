@@ -1,6 +1,6 @@
-<div><h1>Portfolio Website</h1> https://singhshubham593.github.io/portfolio/ </div>Portfolio Website
-Description
-This is a personal portfolio website for Shubham Singh, a Front-End Developer. The website provides detailed information about Shubham's projects, skills, and contact information. It is designed to showcase his expertise and experience in web development, making it easier for potential employers and clients to learn about his work.
+<div><h1>Portfolio Website</h1> https://singhshubham593.github.io/portfolio/ </div>
+<h2>Description</h2>
+<h3This is a personal portfolio website for Shubham Singh, a Front-End Developer. The website provides detailed information about Shubham's projects, skills, and contact information. It is designed to showcase his expertise and experience in web development, making it easier for potential employers and clients to learn about his work.</h3>
 
 Table of Contents
 Project Structure
@@ -10,15 +10,25 @@ Setup
 Usage
 Contributing
 Contact
-Project Structure
-The project is structured as follows:
 
-bash
-Copy code
+<h2>Technologies Used</h2>
+    <ul>
+        <li><strong>HTML</strong>: For structuring the content on the web pages.</li>
+        <li><strong>Tailwind CSS</strong>: For styling the web pages.</li>
+        <li><strong>JavaScript</strong>: For interactive elements.</li>
+        <li><strong>FontAwesome</strong>: For icons.</li>
+        <li><strong>Git</strong>: For version control.</li>
+    </ul>
+
+  <h2>Features</h2>
+    <ul>
+        <li><strong>Responsive Design</strong>: The website is responsive and works on different screen sizes.</li>
+        <li><strong>Profile Section</strong>: Includes a brief introduction, contact information, and a link to the resume.</li>
+        <li><strong>Projects Section</strong>: Showcases different projects with descriptions, technologies used, and links to live demos and source code.</li>
+        <li><strong>Skills Section</strong>: Lists technical skills with icons.</li>
+        <li><strong>Contact Section</strong>: Provides links to LinkedIn, GitHub, and an email option.</li>
+    </ul>
  
-/index.html
-/style.css
-/README.md
 Technologies Used
 HTML: For structuring the content on the web pages.
 Tailwind CSS: For styling the web pages.
@@ -26,6 +36,7 @@ JavaScript: For interactive elements.
 FontAwesome: For icons.
 Git: For version control.
 Features
+
 Responsive Design: The website is responsive and works on different screen sizes.
 Profile Section: Includes a brief introduction, contact information, and a link to the resume.
 Projects Section: Showcases different projects with descriptions, technologies used, and links to live demos and source code.
