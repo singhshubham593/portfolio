@@ -54,15 +54,17 @@
         <li><strong>Contact Section</strong>: Provides links to LinkedIn, GitHub, and an email option.</li>
     </ul>
  
+  <h2>Usage</h2>
+        <ul>
+            <li>Navigate through different sections using the navigation menu.</li></li>
+            <li>View the profile, projects, skills, and contact information.</li>
+            <li>Click on project links to see live demos or source code.</li>
+        </ul>
  
+  <h2>Contact</h2>
+        <ul>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/ShubhamSingh">Shubham Singh</a></li>
+            <li>GitHub: <a href="https://github.com/singhshubham593">singhshubham593</a></li>
+            <li>Email: <a href="mailto:your.email@example.com">Click to Email</a></li>
+        </ul>
  
-Usage
-Navigate through different sections using the navigation menu.
-View the profile, projects, skills, and contact information.
-Click on project links to see live demos or source code.
- 
-Contact
-LinkedIn: Shubham Singh
-GitHub: singhshubham593
-Email: Click to Email
-
