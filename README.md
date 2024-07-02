@@ -1,6 +1,6 @@
 <div><h1>Portfolio Website</h1> https://singhshubham593.github.io/portfolio/ </div>
 <h2>Description</h2>
-<h3This is a personal portfolio website for Shubham Singh, a Front-End Developer. The website provides detailed information about Shubham's projects, skills, and contact information. It is designed to showcase his expertise and experience in web development, making it easier for potential employers and clients to learn about his work.</h3>
+<h3>This is a personal portfolio website of Shubham Singh, a Front-End Developer. The website provides detailed information about Shubham's projects, skills, and contact information. It is designed to showcase his expertise and experience in web development, making it easier for potential employers and clients to learn about his work.</h3>
 
 Table of Contents
 Project Structure
