@@ -2,15 +2,40 @@
 <h2>Description</h2>
 <h3>This is a personal portfolio website of Shubham Singh, a Front-End Developer. The website provides detailed information about Shubham's projects, skills, and contact information. It is designed to showcase his expertise and experience in web development, making it easier for potential employers and clients to learn about his work.</h3>
 
-Table of Contents
-Project Structure
-Technologies Used
-Features
-Setup
-Usage
-Contributing
-Contact
-
+<h2>Table of Contents</h2>
+    <ul>
+        <li><strong>Technologies Used</strong></li>
+        <li><strong>Features</strong></li>
+        <li><strong>Usage</strong></li>
+        <li><strong>Contact</strong></li>
+    </ul>
+ <section id="Project">
+        <h2>Projects</h2>
+        <article>
+            <h3>Portfolio</h3>
+            <p>This is my portfolio project. This project will show all details about me like all projects, all technical skills, and many more things. It will show all details about me in one place which reduces complexity and time.</p>
+            <ul>
+                <li><a href="https://github.com/singhshubham593/portfolio">GitHub</a></li>
+                <li><a href="https://singhshubham593.github.io/portfolio/">Live Demo</a></li>
+            </ul>
+        </article>
+        <article>
+            <h3>Adventure</h3>
+            <p>This project helps people discover and plan their trips to various destinations. The project provides detailed information about places, local culture, travel tips, and more. It has a unique feature that shows interest in a place when people swipe right.</p>
+            <ul>
+                <li><a href="https://github.com/singhshubham593/adventure">GitHub</a></li>
+                <li><a href="https://advanturetry.netlify.app/">Live Demo</a></li>
+            </ul>
+        </article>
+        <article>
+            <h3>EduEase</h3>
+            <p>EduEase is a web-based virtual platform that helps students of MCKV in examination and placement-related notes, questions, and best resources. This platform aims to reduce the stress of students and make studying easier.</p>
+            <ul>
+                <li><a href="https://github.com/singhshubham593/eduHelp">GitHub</a></li>
+                <li><a href="#">Live Demo</a></li>
+            </ul>
+        </article>
+    </section>
 <h2>Technologies Used</h2>
     <ul>
         <li><strong>HTML</strong>: For structuring the content on the web pages.</li>
@@ -29,52 +54,13 @@ Contact
         <li><strong>Contact Section</strong>: Provides links to LinkedIn, GitHub, and an email option.</li>
     </ul>
  
-Technologies Used
-HTML: For structuring the content on the web pages.
-Tailwind CSS: For styling the web pages.
-JavaScript: For interactive elements.
-FontAwesome: For icons.
-Git: For version control.
-Features
-
-Responsive Design: The website is responsive and works on different screen sizes.
-Profile Section: Includes a brief introduction, contact information, and a link to the resume.
-Projects Section: Showcases different projects with descriptions, technologies used, and links to live demos and source code.
-Skills Section: Lists technical skills with icons.
-Contact Section: Provides links to LinkedIn, GitHub, and an email option.
-Setup
-Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/singhshubham593/portfolio.git
-Navigate to the project directory:
-
-bash
-Copy code
-cd portfolio
-Open index.html in your browser to view the website.
-
+ 
+ 
 Usage
 Navigate through different sections using the navigation menu.
 View the profile, projects, skills, and contact information.
 Click on project links to see live demos or source code.
-Contributing
-Fork the repository.
-Create a new branch:
-css
-Copy code
-git checkout -b feature-branch
-Make your changes.
-Commit your changes:
-sql
-Copy code
-git commit -m "Add new feature"
-Push to the branch:
-perl
-Copy code
-git push origin feature-branch
-Create a new Pull Request.
+ 
 Contact
 LinkedIn: Shubham Singh
 GitHub: singhshubham593
