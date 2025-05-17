@@ -1,6 +1,6 @@
 import React from 'react'
 
-import PROFILE_PIC from "../assets/images/project-1.png";
+import PROFILE_PIC from "../assets/images/profile.png";
 import ICON_1 from "../assets/images/icons8-js-96.png";
 import ICON_2 from "../assets/images/icons8-js-96.png";
 import ICON_3 from "../assets/images/icons8-js-48.png";
@@ -12,7 +12,7 @@ const Hero = () => {
   return <section id="hero" className="container mx-auto px-8">
     <div className="flex flex-col lg:flex-row gap-14 items-center justify-between mt-[80px]">
       <div className="order-2 lg:order-1 text-center lg:text-left mt-16 lg:mt-0">
-        <h3 className="text-xl lg:text-2xl font-medium text-black">Hi, I'm Alex Carter</h3>
+        <h3 className="text-xl lg:text-2xl font-medium text-black">Hi, I'm Shubham Singh</h3>
         <h1 className="w-full lg:w-[480px] text-4xl lg:text-5xl font-bold leading-[50px] lg:leading-[60px] bg-gradient-primary bg-clip-text text-transparent">Building Scalable & User Centric Web Apps</h1>
 
         <p className="w-full lg:w-[500px] text-sm lg:text-base mt-4">
@@ -20,8 +20,9 @@ const Hero = () => {
           accessible, and dynamic web experiences using React, Node and tailwindCSS.
         </p>
         <div className="flex justify-center lg:justify-start gap-4 md:gap-8 mt-6">
-          <button className="flex-1 md:flex-none action-btn-outline btn-scale-anim">View My Work</button>
-          <button className="flex-1 md:flex-none action-btn btn-scale-anim">Download Resume</button>
+          <a href="https://github.com/singhshubham593" ><button className=" flex-1 md:flex-none action-btn-outline btn-scale-anim ">View My Work</button></a>
+          <a href="resume.pdf" download><button className="flex-1 md:flex-none action-btn btn-scale-anim">Download Resume</button></a>
+           
         </div>
       </div>
 
