@@ -6,7 +6,9 @@ import AbouteMe from './sections/AbouteMe'
 import MyProjects from './sections/MyProjects'
 import Contact from './sections/Contact'
 import Footer from './sections/Footer'
+
 const App = () => {
+
   return (
     <div >
       <Navbar />
