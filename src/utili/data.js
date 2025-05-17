@@ -3,8 +3,6 @@ import {
     FaNodeJs,
     FaHtml5,
     FaCss3,
-    FaFacebook,
-    FaInstagram,
     FaLinkedin,
 } from "react-icons/fa";
 
@@ -15,7 +13,7 @@ import {
     VscCommentUnresolved,
     VscTerminalPowershell,
  } from "react-icons/vsc";
-import { FaGitAlt, FaXTwitter, FaDribbble } from "react-icons/fa6";
+import { FaGitAlt, FaXTwitter, FaDribbble ,FaGithub } from "react-icons/fa6";
 import { MdGroups3} from "react-icons/md";
 
 import PROJECT_IMG_1 from "../assets/images/project-1.png";
@@ -31,10 +29,9 @@ export const MENU_LINKS = [
 ];
 
 export const STATS = [
-    { id: "01", count: "10", label: 'Years of \n Experience' },
-    {id: "02", count: "12", label:'Certifications \nEarned'},
-    { id: "03", count: "43", label: 'Projects \nCompleted'},
-    { id: "04", count: "37", label: 'Happy \nClient' },
+    { id: "01", count: "01", label: 'Years of \n Experience' },
+    {id: "02", count: "03", label:'Certifications \nEarned'},
+    { id: "03", count: "4", label: 'Projects \nCompleted'},
 ];
     
 export const SKILL_TABS = [
@@ -52,7 +49,7 @@ export const SKILLS = [
     id: "01",
     icon: FaReact,
     skill: "React JS",
-    progress: 95,
+    progress: 90,
     type: "frontend",
     description:
         "Experienced in building scalable, component-driven web applications using React.js. Proficient in state management, hooks, and lifecycle methods.",
@@ -61,7 +58,7 @@ export const SKILLS = [
         id: "02",
         icon: FaHtml5,
         skill: "HTML",
-        progress: 99,
+        progress: 90,
         type: "frontend",
         description:
             "Expert in structuring web content using HTML5. Proficient in semantic markup, accessibility standards, and SEO best practices.",
@@ -70,7 +67,7 @@ export const SKILLS = [
         id: "03",
         icon: FaCss3,
         skill: "CSS",
-        progress: 65,
+        progress: 70,
         type: "frontend",
         description:
             "Skilled in styling web applications using CSS3. Proficient in responsive design, Flexbox, Grid, and CSS preprocessors.",
@@ -79,7 +76,7 @@ export const SKILLS = [
         id: "04",
         icon: BiLogoJavascript,
         skill: "JavaScript",
-        progress: 88,
+        progress: 80,
         type: "frontend",
         description:
             "Proficient in JavaScript ES6+ for building interactive web applications. Experienced with asynchronous programming, DOM manipulation, and event handling.",
@@ -88,34 +85,16 @@ export const SKILLS = [
         id: "05",
         icon: FaNodeJs,
         skill: "Node.JS",
-        progress: 95,
+        progress: 90,
         type: "backend",
         description:
             "Experienced in building server-side applications using Node.js. Proficient in RESTful APIs, middleware, and server management.",
-    },
-    {
-        id: "06",
-        icon: SiExpress,
-        skill: "Express.JS",
-        progress: 98,
-        type: "backend",
-        description:
-            "Skilled in building web applications and APIs using Express.js. Proficient in routing, middleware, and error handling.",
-    },
-    {
-        id: "07",
-        icon: SiMongodb,
-        skill: "MongoDB",
-        progress: 75,
-        type: "backend",
-        description:
-            "Experienced in database management using MongoDB. Proficient in data modeling, aggregation, and indexing.",
-    },
+    }, 
     {
         id: "08",
         icon: SiMysql,
         skill: "SQL",
-        progress: 90,
+        progress: 70,
         type: "backend",
         description:
             "Skilled in relational database management using MySQL. Proficient in SQL queries, joins, and database design.",
@@ -136,36 +115,61 @@ export const ABOUT_ME = {
     content: "I'm a passionate Frontend Developer with a strong foundation in building responsive, user-friendly web applications. I have a keen eye for design and a commitment to writing clean, maintainable code. My goal is to create seamless user experiences that not only meet but exceed client expectations. I thrive in collaborative environments and am always eager to learn new technologies and improve my skills.",
     
     socialLinks: [
-        {id: "01", label: "Facebook", icon: FaFacebook, link: "#"},
-        {id: "02", label: "Instagram", icon: FaInstagram, link: "#"},
-        {id: "03", label: "Twitter", icon: FaXTwitter, link: "#" },
-        {id: "04", label: "LinkedIn", icon: FaLinkedin, link: "#" },
+         
+        {id: "01", label: "Twitter", icon: FaXTwitter, link: "#" },
+        {id: "02", label: "LinkedIn", icon: FaLinkedin, link: "https://www.linkedin.com/in/shubham-singh-a9889b220/" },
+        {id: "03", label: "Github", icon: FaGithub, link: "https://github.com/singhshubham593" }
+
     ], 
     
-    email: "alex.doe@timetoprogram.com",
-    phone: "+1 (123) 456-7890",
-    website: "https://timetoprogram.com",
+    email: "shubhamhai593@gmail.com",
+    phone: "9330789940",
+    website: "https://www.linkedin.com/in/shubham-singh-a9889b220/",
 };
 
 export const PROJECTS = [
-{
+    {
         id: 1,
         title:
-            "Full Stack Notes App using MERN MongoDB, Express, React JS, Node JS",
+            "web app that helps users track and improve their DSA practice by categorizing problems and visualizing progress.",
         image: PROJECT_IMG_1,
-        tags: ["React", "Express.js", "MongoDB", "Node.js"],
+        tags: ["React", "Tailwind CSS"],
+        
     },
     {
         id: 2,
         title:
-            "Responsive Portfolio Website Using React JS | Portfolio Website in React",
+            "This is my personal portfolio website built to showcase my skills, projects, and resume using modern web technologies.",
         image: PROJECT_IMG_2,
-        tags: ["React", "HTML", "CSS"],
+        tags: ["React", "Tailwind CSS"],
     },
     {
         id: 3,
-        title: "Full Stack Travel Story App Using MERN Stack MongoDB, Express, React, Node.js MERN Project",
+        title: 
+            "EduStore is a web platform that provides semester papers, interview questions, and DSA practice resources to help students prepare for exams and placements",
         image: PROJECT_IMG_3,
-        tags: ["React", "Node.js", "Express.js", "MongoDB"],
+        tags: ["React", "Tailwind Css", "Emailjs","Dynamic Routing"],
+    },
+    {
+        id: 4,
+        title:
+            "web app that helps users track and improve their DSA practice by categorizing problems and visualizing progress.",
+        image: PROJECT_IMG_1,
+        tags: ["React", "Tailwind CSS"],
+        
+    },
+    {
+        id: 5,
+        title:
+            "This is my personal portfolio website built to showcase my skills, projects, and resume using modern web technologies.",
+        image: PROJECT_IMG_2,
+        tags: ["React", "Tailwind CSS"],
+    },
+    {
+        id: 6,
+        title: 
+            "EduStore is a web platform that provides semester papers, interview questions, and DSA practice resources to help students prepare for exams and placements",
+        image: PROJECT_IMG_3,
+        tags: ["React", "Tailwind Css", "Emailjs","Dynamic Routing"],
     },
 ];
