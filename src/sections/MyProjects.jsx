@@ -21,7 +21,7 @@ const MyProjects = () => {
         enblaApi.on('select', updateScrollButtons);
     }, [enblaApi, updateScrollButtons]);
   return (
-    <section id="projects" className="bg-background mt-14">
+    <section id="projects" className="bg-background mt-14 px-14">
         <div classNames="container mx-auto px-10 md:px-18 py-10">
             <div className="w-full lg:w-(60vw] mx-auto">
                 <h4 className="section-title">Recent Projects</h4>
