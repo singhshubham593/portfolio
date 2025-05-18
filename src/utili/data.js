@@ -19,6 +19,7 @@ import { MdGroups3} from "react-icons/md";
 import PROJECT_IMG_1 from "../assets/images/project-1.png";
 import PROJECT_IMG_2 from "../assets/images/project-2.png";
 import PROJECT_IMG_3 from "../assets/images/project-3.png"; 
+import PROJECT_IMG_4 from "../assets/images/project-4.png";
 
 export const MENU_LINKS = [
     { id: "01", label: "Home", offset:-100, to: "hero" },
@@ -134,6 +135,7 @@ export const PROJECTS = [
             "web app that helps users track and improve their DSA practice by categorizing problems and visualizing progress.",
         image: PROJECT_IMG_1,
         tags: ["React", "Tailwind CSS"],
+        link: "https://dsa-tracker-kappa.vercel.app/",
         
     },
     {
@@ -142,6 +144,7 @@ export const PROJECTS = [
             "This is my personal portfolio website built to showcase my skills, projects, and resume using modern web technologies.",
         image: PROJECT_IMG_2,
         tags: ["React", "Tailwind CSS"],
+        link: "https://github.com/singhshubham593/portfolio",
     },
     {
         id: 3,
@@ -149,27 +152,45 @@ export const PROJECTS = [
             "EduStore is a web platform that provides semester papers, interview questions, and DSA practice resources to help students prepare for exams and placements",
         image: PROJECT_IMG_3,
         tags: ["React", "Tailwind Css", "Emailjs","Dynamic Routing"],
+        link: "https://github.com/singhshubham593/edustore",
     },
     {
         id: 4,
         title:
             "web app that helps users track and improve their DSA practice by categorizing problems and visualizing progress.",
-        image: PROJECT_IMG_1,
-        tags: ["React", "Tailwind CSS"],
-        
+        image: PROJECT_IMG_4,
+        tags: ["HTML", "CSS", "JavaScript"],
+        link: "https://your-portfolio-link.com",
     },
     {
         id: 5,
         title:
-            "This is my personal portfolio website built to showcase my skills, projects, and resume using modern web technologies.",
-        image: PROJECT_IMG_2,
+            "web app that helps users track and improve their DSA practice by categorizing problems and visualizing progress.",
+        image: PROJECT_IMG_1,
         tags: ["React", "Tailwind CSS"],
+        link: "https://dsa-tracker-kappa.vercel.app/",
     },
     {
         id: 6,
+        title:
+            "This is my personal portfolio website built to showcase my skills, projects, and resume using modern web technologies.",
+        image: PROJECT_IMG_2,
+        tags: ["React", "Tailwind CSS"],
+        link: "https://github.com/singhshubham593/portfolio",
+    },
+    {
+        id: 7,
         title: 
             "EduStore is a web platform that provides semester papers, interview questions, and DSA practice resources to help students prepare for exams and placements",
         image: PROJECT_IMG_3,
         tags: ["React", "Tailwind Css", "Emailjs","Dynamic Routing"],
+        link: "https://github.com/singhshubham593/edustore",
+    },{
+        id: 8,
+        title: 
+            "EduStore is a web platform that provides semester papers, interview questions, and DSA practice resources to help students prepare for exams and placements",
+        image: PROJECT_IMG_4,
+        tags: ["HTML", "CSS", "JavaScript"],
+        link: "https://your-portfolio-link.com",
     },
 ];
