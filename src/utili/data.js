@@ -20,6 +20,7 @@ import PROJECT_IMG_1 from "../assets/images/project-1.png";
 import PROJECT_IMG_2 from "../assets/images/project-2.png";
 import PROJECT_IMG_3 from "../assets/images/project-3.png"; 
 import PROJECT_IMG_4 from "../assets/images/project-4.png";
+import PROJECT_IMG_5 from "../assets/images/project-5.png";
 
 export const MENU_LINKS = [
     { id: "01", label: "Home", offset:-100, to: "hero" },
@@ -32,7 +33,7 @@ export const MENU_LINKS = [
 export const STATS = [
     { id: "01", count: "01", label: 'Years of \n Experience' },
     {id: "02", count: "03", label:'Certifications \nEarned'},
-    { id: "03", count: "4", label: 'Projects \nCompleted'},
+    { id: "03", count: "7", label: 'Projects \nCompleted'},
 ];
     
 export const SKILL_TABS = [
@@ -109,6 +110,24 @@ export const SKILLS = [
       description :
         'Proficient in version control using Git. Experienced with branching strategies, pull requests, and collaboration workflows.'
     },
+    {
+      id:"10",
+      icon : FaGitAlt,
+      skill : 'Redux Toolkit',
+      progress : 70,
+      type : 'tools',
+      description :
+        'a popular state management library for JavaScript applications. It provides helpful utilities and best practices to streamline Redux development, making it easier and more efficient.'
+    },
+    {
+      id:"11",
+      icon : FaGitAlt,
+      skill : 'TanStack Query',
+      progress : 70,
+      type : 'tools',
+      description :
+        'it is a collection of high-quality open-source libraries designed for modern frontend developmen.'
+    },
 ];
 
 export const ABOUT_ME = {
@@ -157,13 +176,21 @@ export const PROJECTS = [
     {
         id: 4,
         title:
-            "web app that helps users track and improve their DSA practice by categorizing problems and visualizing progress.",
+            " The Adventure website is designed to provide information about various adventurous activities and destinations.",
         image: PROJECT_IMG_4,
         tags: ["HTML", "CSS", "JavaScript"],
-        link: "https://your-portfolio-link.com",
+        link: "https://github.com/singhshubham593/adventure?tab=readme-ov-file",
     },
     {
         id: 5,
+        title:
+            "A responsive, single-page React Dashboard UI built using React, JavaScript, and Tailwind CSS.It includes sidebar navigation, a sortable/filterable data table, loading skeletons, and dummy routing.",
+        image: PROJECT_IMG_5,
+        tags: ["React", "Tailwind CSS"],
+        link: "https://recdashboard.netlify.app/",
+    },
+    {
+        id: 6,
         title:
             "web app that helps users track and improve their DSA practice by categorizing problems and visualizing progress.",
         image: PROJECT_IMG_1,
@@ -171,7 +198,7 @@ export const PROJECTS = [
         link: "https://dsa-tracker-kappa.vercel.app/",
     },
     {
-        id: 6,
+        id: 7,
         title:
             "This is my personal portfolio website built to showcase my skills, projects, and resume using modern web technologies.",
         image: PROJECT_IMG_2,
@@ -179,18 +206,27 @@ export const PROJECTS = [
         link: "https://github.com/singhshubham593/portfolio",
     },
     {
-        id: 7,
+        id: 8,
         title: 
             "EduStore is a web platform that provides semester papers, interview questions, and DSA practice resources to help students prepare for exams and placements",
         image: PROJECT_IMG_3,
         tags: ["React", "Tailwind Css", "Emailjs","Dynamic Routing"],
         link: "https://github.com/singhshubham593/edustore",
-    },{
-        id: 8,
-        title: 
-            "EduStore is a web platform that provides semester papers, interview questions, and DSA practice resources to help students prepare for exams and placements",
+    },
+    {
+        id: 4,
+        title:
+            " The Adventure website is designed to provide information about various adventurous activities and destinations.",
         image: PROJECT_IMG_4,
         tags: ["HTML", "CSS", "JavaScript"],
-        link: "https://your-portfolio-link.com",
+        link: "https://github.com/singhshubham593/adventure?tab=readme-ov-file",
+    },
+    {
+        id: 5,
+        title:
+            "A responsive, single-page React Dashboard UI built using React, JavaScript, and Tailwind CSS.It includes sidebar navigation, a sortable/filterable data table, loading skeletons, and dummy routing.",
+        image: PROJECT_IMG_5,
+        tags: ["React", "Tailwind CSS"],
+        link: "https://recdashboard.netlify.app/",
     },
 ];
