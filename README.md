@@ -1,12 +1,32 @@
-# React + Vite
-Live Link- https://shubham593.netlify.app/
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Shubham's Portfolio  
 
-Currently, two official plugins are available:
+Welcome to my personal portfolio! Here, you'll find my projects, skills, and professional journey.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Website  
+[Visit Here](https://shubham593.netlify.app/)  
 
-## Expanding the ESLint configuration
+## 🔹 About Me  
+I'm a passionate developer who loves building scalable and efficient web applications.  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Technologies Used  
+- HTML, CSS, JavaScript  
+- React.js  
+- Redux Toolkit  
+- TanStack Query  
+- Netlify for deployment  
+
+## 📌 Features  
+- Showcases my projects  
+- Interactive UI with smooth animations  
+- Contact form for inquiries  
+
+## 🛠️ How to Contribute  
+If you'd like to suggest improvements or collaborate, feel free to reach out!  
+
+## 📧 Contact Me  
+You can find me on:   
+- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/shubham-singh-a9889b220/)  
+
+---
+
+Feel free to customize this further based on your needs. Do you want me to add specific details or improve the structure?  
