@@ -21,7 +21,7 @@ const Hero = () => {
         </p>
         <div className="flex justify-center lg:justify-start gap-4 md:gap-8 mt-6">
           <a href="https://github.com/singhshubham593" ><button className=" flex-1 md:flex-none action-btn-outline btn-scale-anim ">View My Work</button></a>
-          <a href="resume.pdf" download><button className="flex-1 md:flex-none action-btn btn-scale-anim">Download Resume</button></a>
+          <a href="ShubhFront.pdf" download><button className="flex-1 md:flex-none action-btn btn-scale-anim">Download Resume</button></a>
            
         </div>
       </div>
